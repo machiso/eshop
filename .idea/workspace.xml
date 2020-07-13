@@ -1,10 +1,962 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="02fcf08c-4dcc-4095-bbcb-6a6a85a01e30" name="Default Changelist" comment="" />
-    <ignored path="$PROJECT_DIR$/out/" />
-    <ignored path="$PROJECT_DIR$/target/" />
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <list default="true" id="02fcf08c-4dcc-4095-bbcb-6a6a85a01e30" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__asm_asm_3_3_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__asm_asm_commons_3_3_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__asm_asm_tree_3_3_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__asm_asm_util_3_3_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__cglib_cglib_nodep_2_2_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_fileupload_commons_fileupload_1_3_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_io_commons_io_2_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhss/eshop/Application.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhss/eshop/auth/constant/PriorityType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhss/eshop/auth/controller/AccountController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhss/eshop/auth/controller/PriorityController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhss/eshop/auth/controller/RoleController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhss/eshop/auth/dao/AccountDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhss/eshop/auth/dao/AccountPriorityRelationshipDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhss/eshop/auth/dao/AccountRoleRelationshipDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhss/eshop/auth/dao/PriorityDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhss/eshop/auth/dao/RoleDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhss/eshop/auth/dao/RolePriorityRelationshipDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhss/eshop/auth/dao/impl/AccountDAOImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhss/eshop/auth/dao/impl/AccountPriorityRelationshipDAOImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhss/eshop/auth/dao/impl/AccountRoleRelationshipDAOImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhss/eshop/auth/dao/impl/PriorityDAOImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhss/eshop/auth/dao/impl/RoleDAOImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhss/eshop/auth/dao/impl/RolePriorityRelationshipDAOImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhss/eshop/auth/domain/AccountDO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhss/eshop/auth/domain/AccountDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhss/eshop/auth/domain/AccountPriorityRelationshipDO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhss/eshop/auth/domain/AccountPriorityRelationshipDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhss/eshop/auth/domain/AccountPriorityRelationshipVO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhss/eshop/auth/domain/AccountQuery.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhss/eshop/auth/domain/AccountRoleRelationshipDO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhss/eshop/auth/domain/AccountRoleRelationshipDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhss/eshop/auth/domain/AccountRoleRelationshipVO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhss/eshop/auth/domain/AccountVO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhss/eshop/auth/domain/PriorityDO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhss/eshop/auth/domain/PriorityDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhss/eshop/auth/domain/PriorityVO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhss/eshop/auth/domain/RoleDO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhss/eshop/auth/domain/RoleDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhss/eshop/auth/domain/RolePriorityRelationshipDO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhss/eshop/auth/domain/RolePriorityRelationshipDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhss/eshop/auth/domain/RolePriorityRelationshipVO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhss/eshop/auth/domain/RoleQuery.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhss/eshop/auth/domain/RoleVO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhss/eshop/auth/mapper/AccountMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhss/eshop/auth/mapper/AccountPriorityRelationshipMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhss/eshop/auth/mapper/AccountRoleRelationshipMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhss/eshop/auth/mapper/PriorityMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhss/eshop/auth/mapper/RoleMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhss/eshop/auth/mapper/RolePriorityRelationshipMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhss/eshop/auth/service/AccountService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhss/eshop/auth/service/PriorityService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhss/eshop/auth/service/RoleService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhss/eshop/auth/service/impl/AccountServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhss/eshop/auth/service/impl/Priority.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhss/eshop/auth/service/impl/PriorityCacheManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhss/eshop/auth/service/impl/PriorityCacheManagerImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhss/eshop/auth/service/impl/PriorityOperation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhss/eshop/auth/service/impl/PriorityServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhss/eshop/auth/service/impl/QueryAuthorizedPriorityOperation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhss/eshop/auth/service/impl/RelatedCheckPriorityOperation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhss/eshop/auth/service/impl/RemovePriorityOperation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhss/eshop/auth/service/impl/RoleServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhss/eshop/cart/controller/ShoppingCartController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhss/eshop/cart/controller/ShoppingCartItemController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhss/eshop/cart/dao/ShoppingCartDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhss/eshop/cart/dao/ShoppingCartItemDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhss/eshop/cart/dao/impl/ShoppingCartDAOImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhss/eshop/cart/dao/impl/ShoppingCartItemDAOImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhss/eshop/cart/domain/AddShoppingCartItemQuery.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhss/eshop/cart/domain/ShoppingCartDO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhss/eshop/cart/domain/ShoppingCartDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhss/eshop/cart/domain/ShoppingCartItemDO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhss/eshop/cart/domain/ShoppingCartItemDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhss/eshop/cart/domain/ShoppingCartItemVO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhss/eshop/cart/domain/ShoppingCartVO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhss/eshop/cart/mapper/ShoppingCartItemMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhss/eshop/cart/mapper/ShoppingCartMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhss/eshop/cart/service/ShoppingCartItemService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhss/eshop/cart/service/ShoppingCartService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhss/eshop/cart/service/impl/ShoppingCartItemServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhss/eshop/cart/service/impl/ShoppingCartServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhss/eshop/comment/constant/CommentApproved.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhss/eshop/comment/constant/CommentContent.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhss/eshop/comment/constant/CommentInfoScore.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhss/eshop/comment/constant/CommentPictureUploadDirType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhss/eshop/comment/constant/CommentStatus.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhss/eshop/comment/constant/CommentType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhss/eshop/comment/constant/DefaultComment.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhss/eshop/comment/constant/ShowPictures.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhss/eshop/comment/controller/CommentController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhss/eshop/comment/dao/CommentAggregateDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhss/eshop/comment/dao/CommentInfoDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhss/eshop/comment/dao/CommentPictureDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhss/eshop/comment/dao/impl/CommentAggregateDAOImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhss/eshop/comment/dao/impl/CommentInfoDAOImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhss/eshop/comment/dao/impl/CommentPictureDAOImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhss/eshop/comment/domain/CommentAggregateDO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhss/eshop/comment/domain/CommentAggregateDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhss/eshop/comment/domain/CommentAggregateVO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhss/eshop/comment/domain/CommentInfoDO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhss/eshop/comment/domain/CommentInfoDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhss/eshop/comment/domain/CommentInfoQuery.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhss/eshop/comment/domain/CommentInfoVO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhss/eshop/comment/domain/CommentPictureDO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhss/eshop/comment/domain/CommentPictureDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhss/eshop/comment/domain/CommentPictureVO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhss/eshop/comment/domain/CommentShowVO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhss/eshop/comment/mapper/CommentAggregateMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhss/eshop/comment/mapper/CommentInfoMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhss/eshop/comment/mapper/CommentPictureMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhss/eshop/comment/schedule/AutoPublishCommentTask.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhss/eshop/comment/service/CommentAggregateService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhss/eshop/comment/service/CommentInfoService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhss/eshop/comment/service/CommentPictureService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhss/eshop/comment/service/impl/CommentAggregateServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhss/eshop/comment/service/impl/CommentInfoServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhss/eshop/comment/service/impl/CommentPictureServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhss/eshop/commodity/constant/ApproveResult.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhss/eshop/commodity/constant/CategoryLeaf.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhss/eshop/commodity/constant/GoodsStatus.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhss/eshop/commodity/constant/PropertyInputType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhss/eshop/commodity/constant/PropertyRequired.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhss/eshop/commodity/controller/BrandController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhss/eshop/commodity/controller/CategoryController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhss/eshop/commodity/controller/GoodsController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhss/eshop/commodity/controller/GoodsDetailController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhss/eshop/commodity/controller/GoodsDetailPictureController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhss/eshop/commodity/controller/GoodsPictureController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhss/eshop/commodity/controller/GoodsPropertyValueController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhss/eshop/commodity/controller/GoodsSkuController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhss/eshop/commodity/controller/PropertyController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhss/eshop/commodity/controller/PutFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhss/eshop/commodity/dao/BrandDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhss/eshop/commodity/dao/CategoryDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhss/eshop/commodity/dao/CategoryPropertyRelationshipDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhss/eshop/commodity/dao/GoodsDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhss/eshop/commodity/dao/GoodsDetailDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhss/eshop/commodity/dao/GoodsDetailPictureDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhss/eshop/commodity/dao/GoodsPictureDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhss/eshop/commodity/dao/GoodsPropertyValueDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhss/eshop/commodity/dao/GoodsSkuDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhss/eshop/commodity/dao/GoodsSkuSalePropertyValueDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhss/eshop/commodity/dao/PropertyDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhss/eshop/commodity/dao/PropertyGroupDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhss/eshop/commodity/dao/PropertyGroupRelationshipDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhss/eshop/commodity/dao/impl/BrandDAOImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhss/eshop/commodity/dao/impl/CategoryDAOImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhss/eshop/commodity/dao/impl/CategoryPropertyRelationshipDAOImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhss/eshop/commodity/dao/impl/GoodsDAOImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhss/eshop/commodity/dao/impl/GoodsDetailDAOImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhss/eshop/commodity/dao/impl/GoodsDetailPictureDAOImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhss/eshop/commodity/dao/impl/GoodsPictureDAOImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhss/eshop/commodity/dao/impl/GoodsPropertyValueDAOImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhss/eshop/commodity/dao/impl/GoodsSkuDAOImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhss/eshop/commodity/dao/impl/GoodsSkuSalePropertyValueDAOImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhss/eshop/commodity/dao/impl/PropertyDAOImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhss/eshop/commodity/dao/impl/PropertyGroupDAOImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhss/eshop/commodity/dao/impl/PropertyGroupRelationshipDAOImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhss/eshop/commodity/domain/BrandDO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhss/eshop/commodity/domain/BrandDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhss/eshop/commodity/domain/BrandQuery.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhss/eshop/commodity/domain/BrandVO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhss/eshop/commodity/domain/CategoryDO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhss/eshop/commodity/domain/CategoryDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhss/eshop/commodity/domain/CategoryPropertyRelationshipDO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhss/eshop/commodity/domain/CategoryPropertyRelationshipDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhss/eshop/commodity/domain/CategoryPropertyRelationshipVO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhss/eshop/commodity/domain/CategoryVO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhss/eshop/commodity/domain/GoodsDO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhss/eshop/commodity/domain/GoodsDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhss/eshop/commodity/domain/GoodsDetailDO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhss/eshop/commodity/domain/GoodsDetailDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhss/eshop/commodity/domain/GoodsDetailPictureDO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhss/eshop/commodity/domain/GoodsDetailPictureDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhss/eshop/commodity/domain/GoodsDetailPictureVO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhss/eshop/commodity/domain/GoodsDetailVO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhss/eshop/commodity/domain/GoodsPictureDO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhss/eshop/commodity/domain/GoodsPictureDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhss/eshop/commodity/domain/GoodsPictureVO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhss/eshop/commodity/domain/GoodsPropertyValueDO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhss/eshop/commodity/domain/GoodsPropertyValueDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhss/eshop/commodity/domain/GoodsPropertyValueVO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhss/eshop/commodity/domain/GoodsQuery.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhss/eshop/commodity/domain/GoodsSkuDO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhss/eshop/commodity/domain/GoodsSkuDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhss/eshop/commodity/domain/GoodsSkuQuery.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhss/eshop/commodity/domain/GoodsSkuSalePropertyValueDO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhss/eshop/commodity/domain/GoodsSkuSalePropertyValueDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhss/eshop/commodity/domain/GoodsSkuSalePropertyValueVO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhss/eshop/commodity/domain/GoodsSkuVO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhss/eshop/commodity/domain/GoodsVO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhss/eshop/commodity/domain/PropertyDO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhss/eshop/commodity/domain/PropertyDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhss/eshop/commodity/domain/PropertyGroupDO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhss/eshop/commodity/domain/PropertyGroupDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhss/eshop/commodity/domain/PropertyGroupRelationshipDO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhss/eshop/commodity/domain/PropertyGroupRelationshipDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhss/eshop/commodity/domain/PropertyGroupRelationshipVO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhss/eshop/commodity/domain/PropertyGroupVO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhss/eshop/commodity/domain/PropertyQuery.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhss/eshop/commodity/domain/PropertyVO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhss/eshop/commodity/mapper/BrandMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhss/eshop/commodity/mapper/CategoryMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhss/eshop/commodity/mapper/CategoryPropertyRelationshipMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhss/eshop/commodity/mapper/GoodsDetailMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhss/eshop/commodity/mapper/GoodsDetailPictureMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhss/eshop/commodity/mapper/GoodsMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhss/eshop/commodity/mapper/GoodsPictureMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhss/eshop/commodity/mapper/GoodsPropertyValueMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhss/eshop/commodity/mapper/GoodsSkuMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhss/eshop/commodity/mapper/GoodsSkuSalePropertyValueMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhss/eshop/commodity/mapper/PropertyGroupMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhss/eshop/commodity/mapper/PropertyGroupRelationshipMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhss/eshop/commodity/mapper/PropertyMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhss/eshop/commodity/service/BrandService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhss/eshop/commodity/service/CategoryService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhss/eshop/commodity/service/CommodityService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhss/eshop/commodity/service/GoodsDetailPictureService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhss/eshop/commodity/service/GoodsDetailService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhss/eshop/commodity/service/GoodsPictureService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhss/eshop/commodity/service/GoodsPropertyValueService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhss/eshop/commodity/service/GoodsService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhss/eshop/commodity/service/GoodsSkuService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhss/eshop/commodity/service/PropertyService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhss/eshop/commodity/service/impl/AbstractCategoryOperation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhss/eshop/commodity/service/impl/BrandServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhss/eshop/commodity/service/impl/Category.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhss/eshop/commodity/service/impl/CategoryOperation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhss/eshop/commodity/service/impl/CategoryServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhss/eshop/commodity/service/impl/CommodityServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhss/eshop/commodity/service/impl/GoodsDetailPictureServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhss/eshop/commodity/service/impl/GoodsDetailServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhss/eshop/commodity/service/impl/GoodsPictureServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhss/eshop/commodity/service/impl/GoodsPropertyValueServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhss/eshop/commodity/service/impl/GoodsServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhss/eshop/commodity/service/impl/GoodsSkuServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhss/eshop/commodity/service/impl/Properties.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhss/eshop/commodity/service/impl/PropertyServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhss/eshop/commodity/service/impl/QueryPropertyCategoryOperation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhss/eshop/commodity/service/impl/RelatedCheckCategoryOperation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhss/eshop/commodity/service/impl/RemoveCategoryOperation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhss/eshop/commodity/state/ApproveRejectGoodsState.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhss/eshop/commodity/state/DefaultGoodsState.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhss/eshop/commodity/state/GoodsState.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhss/eshop/commodity/state/GoodsStateFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhss/eshop/commodity/state/GoodsStateManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhss/eshop/commodity/state/GoodsStateManagerImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhss/eshop/commodity/state/PuttedOnShelvesGoodsState.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhss/eshop/commodity/state/WaitForApproveGoodsState.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhss/eshop/commodity/state/WaitForPutOnShelvesGoodsState.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhss/eshop/common/bean/SpringApplicationContext.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhss/eshop/common/constant/CollectionSize.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhss/eshop/common/constant/PathType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhss/eshop/common/file/CommonFile.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhss/eshop/common/file/CommonFileAdapter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhss/eshop/common/json/CompositeJsonExpression.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhss/eshop/common/json/DateJsonDeserializer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhss/eshop/common/json/DateJsonSerializer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhss/eshop/common/json/JsonExpression.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhss/eshop/common/json/JsonExpressionContext.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhss/eshop/common/json/JsonExtractSyntaxParser.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhss/eshop/common/json/JsonExtractor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhss/eshop/common/json/LeafJsonExpression.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhss/eshop/common/listener/SystemInitContextListener.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhss/eshop/common/util/AbstractObject.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhss/eshop/common/util/BeanCopierUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhss/eshop/common/util/CloneDirection.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhss/eshop/common/util/DateProvider.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhss/eshop/common/util/DateProviderImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhss/eshop/common/util/DomainType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhss/eshop/common/util/FileUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhss/eshop/common/util/ObjectUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhss/eshop/customer/constant/ReturnGoodsWorksheetApproveResult.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhss/eshop/customer/constant/ReturnGoodsWorksheetStatus.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhss/eshop/customer/controller/ReturnGoodsWorksheetController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhss/eshop/customer/dao/ReturnGoodsWorksheetDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhss/eshop/customer/dao/impl/ReturnGoodsWorksheetDAOImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhss/eshop/customer/domain/ReturnGoodsWorksheetDO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhss/eshop/customer/domain/ReturnGoodsWorksheetDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhss/eshop/customer/domain/ReturnGoodsWorksheetQuery.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhss/eshop/customer/domain/ReturnGoodsWorksheetVO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhss/eshop/customer/mapper/ReturnGoodsWorksheetMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhss/eshop/customer/service/CustomerService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhss/eshop/customer/service/ReturnGoodsWorksheetService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhss/eshop/customer/service/impl/CustomerServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhss/eshop/customer/service/impl/ReturnGoodsWorksheetServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhss/eshop/finance/constant/PurchaseSettlementOrderApproveResult.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhss/eshop/finance/constant/PurchaseSettlementOrderStatus.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhss/eshop/finance/controller/PurchaseSettlementOrderController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhss/eshop/finance/dao/PurchaseSettlementOrderDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhss/eshop/finance/dao/PurchaseSettlementOrderItemDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhss/eshop/finance/dao/impl/PurchaseSettlementOrderDAOImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhss/eshop/finance/dao/impl/PurchaseSettlementOrderItemDAOImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhss/eshop/finance/domain/PurchaseSettlementOrderDO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhss/eshop/finance/domain/PurchaseSettlementOrderDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhss/eshop/finance/domain/PurchaseSettlementOrderItemDO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhss/eshop/finance/domain/PurchaseSettlementOrderItemDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhss/eshop/finance/domain/PurchaseSettlementOrderItemVO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhss/eshop/finance/domain/PurchaseSettlementOrderQuery.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhss/eshop/finance/domain/PurchaseSettlementOrderVO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhss/eshop/finance/mapper/PurchaseSettlementOrderItemMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhss/eshop/finance/mapper/PurchaseSettlementOrderMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhss/eshop/finance/schedule/MonthSettlementTask.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhss/eshop/finance/schedule/QuarterSettlementTask.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhss/eshop/finance/schedule/WeekSettlementTask.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhss/eshop/finance/service/FinanceService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhss/eshop/finance/service/PurchaseSettlementOrderService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhss/eshop/finance/service/impl/FinanceServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhss/eshop/finance/service/impl/PurchaseSettlementOrderServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhss/eshop/inventory/async/OfflineResumeThread.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhss/eshop/inventory/async/OfflineStorageIterator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhss/eshop/inventory/async/OfflineStorageManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhss/eshop/inventory/async/OfflineStorageManagerImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhss/eshop/inventory/async/StockUpdateMessage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhss/eshop/inventory/async/StockUpdateObservable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhss/eshop/inventory/async/StockUpdateObserver.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhss/eshop/inventory/async/StockUpdateQueue.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhss/eshop/inventory/async/StockUpdateQueueImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhss/eshop/inventory/async/StockUpdateResult.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhss/eshop/inventory/async/StockUpdateResultManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhss/eshop/inventory/async/StockUpdateResultManagerImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhss/eshop/inventory/constant/GoodsStockUpdateOperation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhss/eshop/inventory/constant/StockStatus.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhss/eshop/inventory/dao/GoodsStockDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhss/eshop/inventory/dao/StockUpdateMessageDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhss/eshop/inventory/dao/impl/GoodsStockDAOImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhss/eshop/inventory/dao/impl/StockUpdateMessageDAOImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhss/eshop/inventory/domain/GoodsStockDO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhss/eshop/inventory/domain/StockUpdateMessageDO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhss/eshop/inventory/mapper/GoodsStockMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhss/eshop/inventory/mapper/StockUpdateMessageMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhss/eshop/inventory/service/InventoryService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhss/eshop/inventory/service/impl/InventoryServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhss/eshop/inventory/stock/AbstractStockUpdater.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhss/eshop/inventory/stock/AbstractStockUpdaterFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhss/eshop/inventory/stock/CancelOrderStockUpdater.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhss/eshop/inventory/stock/CancelOrderStockUpdaterFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhss/eshop/inventory/stock/PayOrderStockUpdater.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhss/eshop/inventory/stock/PayOrderStockUpdaterFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhss/eshop/inventory/stock/PurchaseInputStockUpdater.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhss/eshop/inventory/stock/PurchaseInputStockUpdaterFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhss/eshop/inventory/stock/ReturnGoodsInputStockUpdater.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhss/eshop/inventory/stock/ReturnGoodsInputStockUpdaterFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhss/eshop/inventory/stock/StockUpdater.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhss/eshop/inventory/stock/StockUpdaterFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhss/eshop/inventory/stock/SubmitOrderStockUpdater.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhss/eshop/inventory/stock/SubmitOrderStockUpdaterFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhss/eshop/logistics/api/CreateEorderRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhss/eshop/logistics/api/CreateEorderRequestBuilder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhss/eshop/logistics/api/CreateEorderResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhss/eshop/logistics/api/LogisticApi.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhss/eshop/logistics/api/LogisticApiImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhss/eshop/logistics/api/QueryProgressRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhss/eshop/logistics/api/QueryProgressRequestBuilder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhss/eshop/logistics/api/QueryProgressResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhss/eshop/logistics/constant/FreightTemplateType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhss/eshop/logistics/controller/FreightTemplateController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhss/eshop/logistics/controller/LogisticsController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhss/eshop/logistics/dao/FreightTemplateDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhss/eshop/logistics/dao/impl/FreightTemplateDAOImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhss/eshop/logistics/domain/FreightTemplateDO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhss/eshop/logistics/domain/FreightTemplateDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhss/eshop/logistics/domain/FreightTemplateQuery.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhss/eshop/logistics/domain/FreightTemplateVO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhss/eshop/logistics/mapper/FreightTemplateMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhss/eshop/logistics/service/FreightTemplateService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhss/eshop/logistics/service/LogisticsService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhss/eshop/logistics/service/impl/CustomRuleFreightCalculator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhss/eshop/logistics/service/impl/DefaultLogisticsFreightCalculator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhss/eshop/logistics/service/impl/FixedFreightCalculator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhss/eshop/logistics/service/impl/FreightCalculator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhss/eshop/logistics/service/impl/FreightCalculatorFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhss/eshop/logistics/service/impl/FreightTemplateServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhss/eshop/logistics/service/impl/LogisticsServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhss/eshop/logistics/service/impl/ReachFreeFreightCalculator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhss/eshop/membership/constant/MemberLevel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhss/eshop/membership/constant/UpdateMemberLevelResult.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhss/eshop/membership/constant/UpdateMemberPointResult.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhss/eshop/membership/controller/DeliveryAddressController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhss/eshop/membership/controller/MemberLevelController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhss/eshop/membership/controller/MemberPointController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhss/eshop/membership/controller/UserAccountController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhss/eshop/membership/controller/UserDetailController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhss/eshop/membership/dao/DeliveryAddressDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhss/eshop/membership/dao/MemberLevelDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhss/eshop/membership/dao/MemberLevelDetailDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhss/eshop/membership/dao/MemberPointDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhss/eshop/membership/dao/MemberPointDetailDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhss/eshop/membership/dao/UserAccountDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhss/eshop/membership/dao/UserDetailDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhss/eshop/membership/dao/impl/DeliveryAddressDAOImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhss/eshop/membership/dao/impl/MemberLevelDAOImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhss/eshop/membership/dao/impl/MemberLevelDetailDAOImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhss/eshop/membership/dao/impl/MemberPointDAOImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhss/eshop/membership/dao/impl/MemberPointDetailDAOImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhss/eshop/membership/dao/impl/UserAccountDAOImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhss/eshop/membership/dao/impl/UserDetailDAOImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhss/eshop/membership/domain/DeliveryAddressDO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhss/eshop/membership/domain/DeliveryAddressDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhss/eshop/membership/domain/DeliveryAddressVO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhss/eshop/membership/domain/MemberLevelDO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhss/eshop/membership/domain/MemberLevelDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhss/eshop/membership/domain/MemberLevelDetailDO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhss/eshop/membership/domain/MemberLevelDetailDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhss/eshop/membership/domain/MemberLevelDetailQuery.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhss/eshop/membership/domain/MemberLevelDetailVO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhss/eshop/membership/domain/MemberLevelVO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhss/eshop/membership/domain/MemberPointDO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhss/eshop/membership/domain/MemberPointDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhss/eshop/membership/domain/MemberPointDetailDO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhss/eshop/membership/domain/MemberPointDetailDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhss/eshop/membership/domain/MemberPointDetailQuery.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhss/eshop/membership/domain/MemberPointDetailVO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhss/eshop/membership/domain/MemberPointVO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhss/eshop/membership/domain/UserAccountDO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhss/eshop/membership/domain/UserAccountDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhss/eshop/membership/domain/UserAccountVO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhss/eshop/membership/domain/UserDetailDO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhss/eshop/membership/domain/UserDetailDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhss/eshop/membership/domain/UserDetailShowVO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhss/eshop/membership/domain/UserDetailVO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhss/eshop/membership/mapper/DeliveryAddressMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhss/eshop/membership/mapper/MemberLevelDetailMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhss/eshop/membership/mapper/MemberLevelMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhss/eshop/membership/mapper/MemberPointDetailMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhss/eshop/membership/mapper/MemberPointMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhss/eshop/membership/mapper/UserAccountMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhss/eshop/membership/mapper/UserDetailMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhss/eshop/membership/service/DeliveryAddressService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhss/eshop/membership/service/MemberLevelDetailService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhss/eshop/membership/service/MemberPointDetailService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhss/eshop/membership/service/MembershipService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhss/eshop/membership/service/UserAccountService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhss/eshop/membership/service/UserDetailService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhss/eshop/membership/service/impl/AbstractMembershipUpdater.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhss/eshop/membership/service/impl/DeliveryAddressServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhss/eshop/membership/service/impl/FirstLoginMembershipUpdater.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhss/eshop/membership/service/impl/MemberLevelDetailServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhss/eshop/membership/service/impl/MemberPointDetailServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhss/eshop/membership/service/impl/MembershipServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhss/eshop/membership/service/impl/MembershipUpdater.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhss/eshop/membership/service/impl/PayOrderMembershipUpdater.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhss/eshop/membership/service/impl/PublishCommentMembershipUpdater.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhss/eshop/membership/service/impl/UserAccountServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhss/eshop/membership/service/impl/UserDetailServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhss/eshop/order/constant/OrderOperateType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhss/eshop/order/constant/OrderStatus.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhss/eshop/order/constant/PublishedComment.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhss/eshop/order/constant/ReturnGoodsApplyStatus.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhss/eshop/order/controller/OrderInfoController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhss/eshop/order/dao/OrderInfoDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhss/eshop/order/dao/OrderItemDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhss/eshop/order/dao/OrderOperateLogDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhss/eshop/order/dao/ReturnGoodsApplyDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhss/eshop/order/dao/impl/OrderInfoDAOImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhss/eshop/order/dao/impl/OrderItemDAOImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhss/eshop/order/dao/impl/OrderOperateLogDAOImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhss/eshop/order/dao/impl/ReturnGoodsApplyDAOImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhss/eshop/order/domain/CalculateCouponeDiscountPriceVO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhss/eshop/order/domain/OrderInfoDO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhss/eshop/order/domain/OrderInfoDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhss/eshop/order/domain/OrderInfoQuery.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhss/eshop/order/domain/OrderInfoVO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhss/eshop/order/domain/OrderItemDO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhss/eshop/order/domain/OrderItemDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhss/eshop/order/domain/OrderItemVO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhss/eshop/order/domain/OrderOperateLogDO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhss/eshop/order/domain/OrderOperateLogDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhss/eshop/order/domain/OrderOperateLogVO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhss/eshop/order/domain/ReturnGoodsApplyDO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhss/eshop/order/domain/ReturnGoodsApplyDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhss/eshop/order/domain/ReturnGoodsApplyVO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhss/eshop/order/mapper/OrderInfoMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhss/eshop/order/mapper/OrderItemMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhss/eshop/order/mapper/OrderOperateLogMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhss/eshop/order/mapper/ReturnGoodsApplyMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhss/eshop/order/price/AbstractGiftPromotionActivityCalculator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhss/eshop/order/price/CashCouponCalculator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhss/eshop/order/price/CouponCalculator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhss/eshop/order/price/CouponCalculatorFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhss/eshop/order/price/DefaultCouponCalculator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhss/eshop/order/price/DefaultFreightCalculator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhss/eshop/order/price/DefaultOrderPriceCalculatorFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhss/eshop/order/price/DefaultPromotionActivityCalculator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhss/eshop/order/price/DefaultTotalPriceCalculator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhss/eshop/order/price/DirectDiscountPromotionActivityCalcualtor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhss/eshop/order/price/DirectGiftPromotionActivityCalculator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhss/eshop/order/price/DiscountOrderPriceCalculatorFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhss/eshop/order/price/FreightCalculator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhss/eshop/order/price/GiftIncludedFreightCalculator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhss/eshop/order/price/GiftOrderPriceCalculatorFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhss/eshop/order/price/MultiDiscountPromotionActivityCalculator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhss/eshop/order/price/OrderPriceCalculatorFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhss/eshop/order/price/PromotionActivityCalculator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhss/eshop/order/price/PromotionActivityResult.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhss/eshop/order/price/ReachDiscountCouponCalculator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhss/eshop/order/price/ReachDiscountPromotionActivityCalculator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhss/eshop/order/price/ReachGiftPromotionActivityCalculator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhss/eshop/order/price/TotalPriceCalculator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhss/eshop/order/schedule/AutoCancelOrderTask.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhss/eshop/order/schedule/AutoConfirmReceiptTask.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhss/eshop/order/service/OrderInfoService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhss/eshop/order/service/OrderService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhss/eshop/order/service/impl/OrderInfoServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhss/eshop/order/service/impl/OrderOperateLogFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhss/eshop/order/service/impl/OrderServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhss/eshop/order/state/AbstractOrderState.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhss/eshop/order/state/CanceledOrderState.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhss/eshop/order/state/DefaultOrderState.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhss/eshop/order/state/FinishedInputReturnGoodsOrderState.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhss/eshop/order/state/FinishedOrderState.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhss/eshop/order/state/FinishedRefundOrderState.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhss/eshop/order/state/LoggedOrderStateManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhss/eshop/order/state/OrderState.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhss/eshop/order/state/OrderStateManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhss/eshop/order/state/OrderStateManagerImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhss/eshop/order/state/ReturnGoodsRejectedOrderState.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhss/eshop/order/state/WaitForDeliveryOrderState.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhss/eshop/order/state/WaitForInputReturnGoodsOrderState.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhss/eshop/order/state/WaitForPayOrderState.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhss/eshop/order/state/WaitForReceiveOrderState.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhss/eshop/order/state/WaitForReceiveReturnGoodsOrderState.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhss/eshop/order/state/WaitForReturnGoodsApproveOrderState.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhss/eshop/order/state/WaitForSendOutReturnGoodsOrderState.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhss/eshop/pay/api/PayApi.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhss/eshop/pay/api/PayApiController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhss/eshop/pay/api/PayApiImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhss/eshop/pay/api/QueryPayStatusResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhss/eshop/pay/constant/PayTransactionStatus.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhss/eshop/pay/constant/PayType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhss/eshop/pay/controller/PayTransactionController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhss/eshop/pay/dao/PayTransactionDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhss/eshop/pay/dao/impl/PayTransactionDAOImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhss/eshop/pay/domain/PayTransactionBuilder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhss/eshop/pay/domain/PayTransactionDO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhss/eshop/pay/domain/PayTransactionDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhss/eshop/pay/domain/PayTransactionQuery.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhss/eshop/pay/domain/PayTransactionVO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhss/eshop/pay/mapper/PayTransactionMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhss/eshop/pay/schedule/AlipayStatusQueryTask.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhss/eshop/pay/schedule/UnpayedTimeoutTask.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhss/eshop/pay/service/PayService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhss/eshop/pay/service/PayTransactionService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhss/eshop/pay/service/impl/PayServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhss/eshop/pay/service/impl/PayTransactionServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhss/eshop/promotion/constant/CouponGiveOutType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhss/eshop/promotion/constant/CouponStatus.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhss/eshop/promotion/constant/CouponType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhss/eshop/promotion/constant/PromotionActivityStatus.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhss/eshop/promotion/constant/PromotionActivityType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhss/eshop/promotion/controller/CouponController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhss/eshop/promotion/controller/PromotionActivityController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhss/eshop/promotion/controller/PromotionController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhss/eshop/promotion/dao/CouponAchieveDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhss/eshop/promotion/dao/CouponDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhss/eshop/promotion/dao/PromotionActivityDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhss/eshop/promotion/dao/PromotionActivityGoodsRelationDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhss/eshop/promotion/dao/impl/CouponAchieveDAOImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhss/eshop/promotion/dao/impl/CouponDAOImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhss/eshop/promotion/dao/impl/PromotionActivityDAOImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhss/eshop/promotion/dao/impl/PromotionActivityGoodsRelationDAOImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhss/eshop/promotion/domain/CouponAchieveDO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhss/eshop/promotion/domain/CouponAchieveDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhss/eshop/promotion/domain/CouponAchieveVO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhss/eshop/promotion/domain/CouponDO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhss/eshop/promotion/domain/CouponDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhss/eshop/promotion/domain/CouponQuery.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhss/eshop/promotion/domain/CouponVO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhss/eshop/promotion/domain/PromotionActivityDO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhss/eshop/promotion/domain/PromotionActivityDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhss/eshop/promotion/domain/PromotionActivityGoodsRelationDO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhss/eshop/promotion/domain/PromotionActivityGoodsRelationDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhss/eshop/promotion/domain/PromotionActivityGoodsRelationVO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhss/eshop/promotion/domain/PromotionActivityQuery.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhss/eshop/promotion/domain/PromotionActivityVO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhss/eshop/promotion/mapper/CouponAchieveMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhss/eshop/promotion/mapper/CouponMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhss/eshop/promotion/mapper/PromotionActivityGoodsRelationMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhss/eshop/promotion/mapper/PromotionActivityMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhss/eshop/promotion/service/CouponService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhss/eshop/promotion/service/PromotionActivityService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhss/eshop/promotion/service/PromotionService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhss/eshop/promotion/service/impl/CouponServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhss/eshop/promotion/service/impl/CouponStatusCheckTask.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhss/eshop/promotion/service/impl/PromotionActivityServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhss/eshop/promotion/service/impl/PromotionActivityStatusCheckTask.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhss/eshop/promotion/service/impl/PromotionServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhss/eshop/purchase/constant/PurchaseOrderApproveResult.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhss/eshop/purchase/constant/PurchaseOrderStatus.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhss/eshop/purchase/constant/SettlementPeriod.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhss/eshop/purchase/controller/PurchaseOrderController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhss/eshop/purchase/controller/SupplierController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhss/eshop/purchase/dao/PurchaseOrderDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhss/eshop/purchase/dao/PurchaseOrderItemDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhss/eshop/purchase/dao/SupplierDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhss/eshop/purchase/dao/impl/PurchaseOrderDAOImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhss/eshop/purchase/dao/impl/PurchaseOrderItemDAOImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhss/eshop/purchase/dao/impl/SupplierDAOImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhss/eshop/purchase/domain/PurchaseOrderDO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhss/eshop/purchase/domain/PurchaseOrderDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhss/eshop/purchase/domain/PurchaseOrderItemDO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhss/eshop/purchase/domain/PurchaseOrderItemDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhss/eshop/purchase/domain/PurchaseOrderItemVO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhss/eshop/purchase/domain/PurchaseOrderQuery.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhss/eshop/purchase/domain/PurchaseOrderVO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhss/eshop/purchase/domain/SupplierDO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhss/eshop/purchase/domain/SupplierDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhss/eshop/purchase/domain/SupplierQuery.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhss/eshop/purchase/domain/SupplierVO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhss/eshop/purchase/mapper/PurchaseOrderItemMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhss/eshop/purchase/mapper/PurchaseOrderMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhss/eshop/purchase/mapper/SupplierMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhss/eshop/purchase/service/PurchaseOrderService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhss/eshop/purchase/service/PurchaseService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhss/eshop/purchase/service/SupplierService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhss/eshop/purchase/service/impl/PurchaseOrderServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhss/eshop/purchase/service/impl/PurchaseServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhss/eshop/purchase/service/impl/SupplierServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhss/eshop/schedule/constant/StockUpdateEvent.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhss/eshop/schedule/dao/ScheduleGoodsAllocationStockDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhss/eshop/schedule/dao/ScheduleGoodsAllocationStockDetailDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhss/eshop/schedule/dao/ScheduleGoodsStockDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhss/eshop/schedule/dao/ScheduleOrderPickingItemDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhss/eshop/schedule/dao/ScheduleOrderSendOutDetailDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhss/eshop/schedule/dao/impl/ScheduleGoodsAllocationStockDAOImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhss/eshop/schedule/dao/impl/ScheduleGoodsAllocationStockDetailDAOImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhss/eshop/schedule/dao/impl/ScheduleGoodsStockDAOImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhss/eshop/schedule/dao/impl/ScheduleOrderPickingItemDAOImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhss/eshop/schedule/dao/impl/ScheduleOrderSendOutDetailDAOImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhss/eshop/schedule/domain/GoodsAllocationStockDO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhss/eshop/schedule/domain/GoodsAllocationStockId.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhss/eshop/schedule/domain/GoodsStockDO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhss/eshop/schedule/domain/SaleDeliveryScheduleResult.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhss/eshop/schedule/domain/ScheduleGoodsAllocationStockDO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhss/eshop/schedule/domain/ScheduleGoodsAllocationStockDetailDO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhss/eshop/schedule/domain/ScheduleGoodsAllocationStockDetailDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhss/eshop/schedule/domain/ScheduleGoodsAllocationStockDetailVO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhss/eshop/schedule/domain/ScheduleGoodsStockDO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhss/eshop/schedule/domain/ScheduleOrderPickingItemDO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhss/eshop/schedule/domain/ScheduleOrderPickingItemDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhss/eshop/schedule/domain/ScheduleOrderPickingItemVO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhss/eshop/schedule/domain/ScheduleOrderSendOutDetailDO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhss/eshop/schedule/domain/ScheduleOrderSendOutDetailDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhss/eshop/schedule/domain/ScheduleOrderSendOutDetailVO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhss/eshop/schedule/mapper/ScheduleGoodsAllocationStockDetailMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhss/eshop/schedule/mapper/ScheduleGoodsAllocationStockMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhss/eshop/schedule/mapper/ScheduleGoodsStockMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhss/eshop/schedule/mapper/ScheduleOrderPickingItemMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhss/eshop/schedule/mapper/ScheduleOrderSendOutDetailMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhss/eshop/schedule/service/SaleDeliveryOrderBuilder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhss/eshop/schedule/service/SaleDeliveryScheduler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhss/eshop/schedule/service/ScheduleService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhss/eshop/schedule/service/impl/DefaultSaleDeliveryOrderBuilder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhss/eshop/schedule/service/impl/SaleDeliveryOrderBuilderFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhss/eshop/schedule/service/impl/SaleDeliverySchedulerImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhss/eshop/schedule/service/impl/ScheduleServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhss/eshop/schedule/stock/AbstractScheduleStockUpdater.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhss/eshop/schedule/stock/CancelOrderScheduleStockUpdater.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhss/eshop/schedule/stock/PayOrderScheduleStockUpdater.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhss/eshop/schedule/stock/PurchaseInputScheduleStockUpdater.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhss/eshop/schedule/stock/ReturnGoodsInputScheduleStockUpdater.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhss/eshop/schedule/stock/ScheduleStockUpdateMessageConsumer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhss/eshop/schedule/stock/ScheduleStockUpdater.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhss/eshop/schedule/stock/ScheduleStockUpdaterFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhss/eshop/schedule/stock/SubmitOrderScheduleStockUpdater.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhss/eshop/wms/constant/PurchaseInputOrderApproveResult.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhss/eshop/wms/constant/PurchaseInputOrderStatus.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhss/eshop/wms/constant/ReturnGoodsInputOrderApproveResult.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhss/eshop/wms/constant/ReturnGoodsInputOrderStatus.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhss/eshop/wms/constant/SaleDeliveryOrderApproveResult.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhss/eshop/wms/constant/SaleDeliveryOrderStatus.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhss/eshop/wms/constant/WmsStockUpdateEvent.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhss/eshop/wms/controller/GoodsAllocationController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhss/eshop/wms/controller/PurchaseInputOrderController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhss/eshop/wms/controller/ReturnGoodsInputOrderController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhss/eshop/wms/controller/SaleDeliveryOrderController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhss/eshop/wms/dao/GoodsAllocationDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhss/eshop/wms/dao/GoodsAllocationStockDetailDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhss/eshop/wms/dao/LogisticOrderDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhss/eshop/wms/dao/PurchaseInputOrderDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhss/eshop/wms/dao/PurchaseInputOrderItemDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhss/eshop/wms/dao/PurchaseInputOrderPutOnItemDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhss/eshop/wms/dao/ReturnGoodsInputOrderDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhss/eshop/wms/dao/ReturnGoodsInputOrderItemDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhss/eshop/wms/dao/ReturnGoodsInputOrderPutOnItemDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhss/eshop/wms/dao/SaleDeliveryOrderDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhss/eshop/wms/dao/SaleDeliveryOrderItemDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhss/eshop/wms/dao/SaleDeliveryOrderPickingItemDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhss/eshop/wms/dao/SaleDeliveryOrderSendOutDetailDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhss/eshop/wms/dao/SendOutOrderDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhss/eshop/wms/dao/SendOutOrderItemDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhss/eshop/wms/dao/WmsGoodsAllocationStockDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhss/eshop/wms/dao/WmsGoodsStockDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhss/eshop/wms/dao/impl/GoodsAllocationDAOImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhss/eshop/wms/dao/impl/GoodsAllocationStockDetailDAOImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhss/eshop/wms/dao/impl/LogisticOrderDAOImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhss/eshop/wms/dao/impl/PurchaseInputOrderDAOImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhss/eshop/wms/dao/impl/PurchaseInputOrderItemDAOImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhss/eshop/wms/dao/impl/PurchaseInputOrderPutOnItemDAOImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhss/eshop/wms/dao/impl/ReturnGoodsInputOrderDAOImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhss/eshop/wms/dao/impl/ReturnGoodsInputOrderItemDAOImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhss/eshop/wms/dao/impl/ReturnGoodsInputOrderPutOnItemDAOImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhss/eshop/wms/dao/impl/SaleDeliveryOrderDAOImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhss/eshop/wms/dao/impl/SaleDeliveryOrderItemDAOImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhss/eshop/wms/dao/impl/SaleDeliveryOrderPickingItemDAOImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhss/eshop/wms/dao/impl/SaleDeliveryOrderSendOutDetailDAOImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhss/eshop/wms/dao/impl/SendOutOrderDAOImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhss/eshop/wms/dao/impl/SendOutOrderItemDAOImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhss/eshop/wms/dao/impl/WmsGoodsAllocationStockDAOImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhss/eshop/wms/dao/impl/WmsGoodsStockDAOImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhss/eshop/wms/domain/GoodsAllocationDO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhss/eshop/wms/domain/GoodsAllocationDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhss/eshop/wms/domain/GoodsAllocationQuery.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhss/eshop/wms/domain/GoodsAllocationStockDetailDO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhss/eshop/wms/domain/GoodsAllocationStockDetailDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhss/eshop/wms/domain/GoodsAllocationStockDetailVO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhss/eshop/wms/domain/GoodsAllocationVO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhss/eshop/wms/domain/LogisticOrderDO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhss/eshop/wms/domain/LogisticOrderDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhss/eshop/wms/domain/LogisticOrderVO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhss/eshop/wms/domain/PurchaseInputOrderDO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhss/eshop/wms/domain/PurchaseInputOrderDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhss/eshop/wms/domain/PurchaseInputOrderItemDO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhss/eshop/wms/domain/PurchaseInputOrderItemDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhss/eshop/wms/domain/PurchaseInputOrderItemVO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhss/eshop/wms/domain/PurchaseInputOrderPutOnItemDO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhss/eshop/wms/domain/PurchaseInputOrderPutOnItemDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhss/eshop/wms/domain/PurchaseInputOrderPutOnItemVO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhss/eshop/wms/domain/PurchaseInputOrderQuery.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhss/eshop/wms/domain/PurchaseInputOrderVO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhss/eshop/wms/domain/ReturnGoodsInputOrderDO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhss/eshop/wms/domain/ReturnGoodsInputOrderDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhss/eshop/wms/domain/ReturnGoodsInputOrderItemDO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhss/eshop/wms/domain/ReturnGoodsInputOrderItemDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhss/eshop/wms/domain/ReturnGoodsInputOrderItemVO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhss/eshop/wms/domain/ReturnGoodsInputOrderPutOnItemDO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhss/eshop/wms/domain/ReturnGoodsInputOrderPutOnItemDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhss/eshop/wms/domain/ReturnGoodsInputOrderPutOnItemVO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhss/eshop/wms/domain/ReturnGoodsInputOrderQuery.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhss/eshop/wms/domain/ReturnGoodsInputOrderVO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhss/eshop/wms/domain/SaleDeliveryOrderDO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhss/eshop/wms/domain/SaleDeliveryOrderDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhss/eshop/wms/domain/SaleDeliveryOrderItemDO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhss/eshop/wms/domain/SaleDeliveryOrderItemDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhss/eshop/wms/domain/SaleDeliveryOrderItemVO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhss/eshop/wms/domain/SaleDeliveryOrderPickingItemDO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhss/eshop/wms/domain/SaleDeliveryOrderPickingItemDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhss/eshop/wms/domain/SaleDeliveryOrderPickingItemVO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhss/eshop/wms/domain/SaleDeliveryOrderQuery.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhss/eshop/wms/domain/SaleDeliveryOrderSendOutDetailDO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhss/eshop/wms/domain/SaleDeliveryOrderSendOutDetailDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhss/eshop/wms/domain/SaleDeliveryOrderSendOutDetailVO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhss/eshop/wms/domain/SaleDeliveryOrderVO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhss/eshop/wms/domain/SendOutOrderDO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhss/eshop/wms/domain/SendOutOrderDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhss/eshop/wms/domain/SendOutOrderItemDO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhss/eshop/wms/domain/SendOutOrderItemDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhss/eshop/wms/domain/SendOutOrderItemVO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhss/eshop/wms/domain/SendOutOrderVO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhss/eshop/wms/domain/WmsGoodsAllocationStockDO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhss/eshop/wms/domain/WmsGoodsStockDO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhss/eshop/wms/mapper/GoodsAllocationMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhss/eshop/wms/mapper/GoodsAllocationStockDetailMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhss/eshop/wms/mapper/LogisticOrderMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhss/eshop/wms/mapper/PurchaseInputOrderItemMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhss/eshop/wms/mapper/PurchaseInputOrderMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhss/eshop/wms/mapper/PurchaseInputOrderPutOnItemMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhss/eshop/wms/mapper/ReturnGoodsInputOrderItemMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhss/eshop/wms/mapper/ReturnGoodsInputOrderMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhss/eshop/wms/mapper/ReturnGoodsInputOrderPutOnItemMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhss/eshop/wms/mapper/SaleDeliveryOrderItemMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhss/eshop/wms/mapper/SaleDeliveryOrderMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhss/eshop/wms/mapper/SaleDeliveryOrderPickingItemMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhss/eshop/wms/mapper/SaleDeliveryOrderSendOutDetailMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhss/eshop/wms/mapper/SendOutOrderItemMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhss/eshop/wms/mapper/SendOutOrderMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhss/eshop/wms/mapper/WmsGoodsAllocationStockMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhss/eshop/wms/mapper/WmsGoodsStockMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhss/eshop/wms/service/GoodsAllocationService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhss/eshop/wms/service/PurchaseInputOrderService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhss/eshop/wms/service/ReturnGoodsInputOrderService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhss/eshop/wms/service/SaleDeliveryOrderService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhss/eshop/wms/service/WmsService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhss/eshop/wms/service/impl/AbstractPurchaseInputOrderHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhss/eshop/wms/service/impl/GoodsAllocationServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhss/eshop/wms/service/impl/InformFinanceCenterHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhss/eshop/wms/service/impl/InformPurchaseCenterHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhss/eshop/wms/service/impl/InformScheduleCenterHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhss/eshop/wms/service/impl/PurchaseInputOrderHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhss/eshop/wms/service/impl/PurchaseInputOrderHandlerFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhss/eshop/wms/service/impl/PurchaseInputOrderHandlerResult.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhss/eshop/wms/service/impl/PurchaseInputOrderServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhss/eshop/wms/service/impl/ReturnGoodsInputOrderServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhss/eshop/wms/service/impl/SaleDeliveryOrderServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhss/eshop/wms/service/impl/UpdatePurchaseInputOrderStatusHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhss/eshop/wms/service/impl/UpdateStockHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhss/eshop/wms/service/impl/WmsServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhss/eshop/wms/stock/AbstractWmsStockUpdater.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhss/eshop/wms/stock/CancelOrderWmsStockUpdater.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhss/eshop/wms/stock/PayOrderWmsStockUpdater.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhss/eshop/wms/stock/PurchaseInputWmsStockUpdater.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhss/eshop/wms/stock/ReturnGoodsInputWmsStockUpdater.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhss/eshop/wms/stock/SubmitOrderWmsStockUpdater.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhss/eshop/wms/stock/WmsStockUpdater.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/zhss/eshop/wms/stock/WmsStockUpdaterFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/profiles/beta/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/profiles/dev/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/profiles/prod/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/profiles/staging/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/profiles/test/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/upload/pic1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/upload/pic12.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/upload/pic2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/upload/pic22.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/zhss/eshop/auth/controller/PriorityControllerTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/zhss/eshop/auth/dao/AccountDaoTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/zhss/eshop/auth/dao/AccountPriorityRelationshipDaoTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/zhss/eshop/auth/dao/AccountRoleRelationshipDaoTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/zhss/eshop/auth/dao/PriorityDaoTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/zhss/eshop/auth/dao/RoleDaoTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/zhss/eshop/auth/dao/RolePriorityRelationshipDaoTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/zhss/eshop/auth/dao/clean_account_priority_relationship.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/zhss/eshop/auth/dao/clean_account_role_relationship.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/zhss/eshop/auth/dao/clean_role.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/zhss/eshop/auth/dao/clean_role_priority_relationship.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/zhss/eshop/auth/service/PriorityServiceTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/zhss/eshop/cart/controller/ShoppingCartControllerTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/zhss/eshop/cart/dao/ShoppingCartDaoTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/zhss/eshop/cart/dao/ShoppingCartItemDaoTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/zhss/eshop/cart/dao/clean_shopping_cart.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/zhss/eshop/cart/service/ShoppingCartServiceTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/zhss/eshop/comment/dao/CommentAggregateDaoTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/zhss/eshop/comment/dao/CommentInfoDaoTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/zhss/eshop/comment/dao/CommentPictureDaoTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/zhss/eshop/comment/dao/clean_comment_aggregate.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/zhss/eshop/comment/service/CommentAggregateServiceTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/zhss/eshop/comment/service/CommentInfoServiceTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/zhss/eshop/commodity/dao/BrandDaoTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/zhss/eshop/commodity/dao/CategoryDaoTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/zhss/eshop/commodity/dao/CategoryPropertyRelationshipDaoTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/zhss/eshop/commodity/dao/GoodsDaoTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/zhss/eshop/commodity/dao/GoodsDetailDaoTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/zhss/eshop/commodity/dao/GoodsDetailPictureDaoTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/zhss/eshop/commodity/dao/GoodsPictureDaoTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/zhss/eshop/commodity/dao/GoodsPropertyValueDaoTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/zhss/eshop/commodity/dao/GoodsSkuDaoTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/zhss/eshop/commodity/dao/GoodsSkuSalePropertyValueDaoTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/zhss/eshop/commodity/dao/PropertyDaoTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/zhss/eshop/commodity/dao/PropertyGroupDaoTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/zhss/eshop/commodity/dao/PropertyGroupRelationshipDaoTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/zhss/eshop/commodity/dao/clean_commodity_category_property_relationship.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/zhss/eshop/commodity/dao/clean_goods.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/zhss/eshop/commodity/dao/clean_goods_detail.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/zhss/eshop/commodity/dao/clean_goods_detail_picture.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/zhss/eshop/commodity/dao/clean_goods_picture.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/zhss/eshop/commodity/dao/clean_goods_property_value.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/zhss/eshop/commodity/dao/clean_goods_sku.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/zhss/eshop/commodity/dao/clean_goods_sku_sale_property_value.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/zhss/eshop/commodity/dao/clean_property.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/zhss/eshop/commodity/dao/clean_property_group.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/zhss/eshop/commodity/dao/clean_property_group_relationship.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/zhss/eshop/customer/dao/ReturnGoodsWorksheetDaoTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/zhss/eshop/customer/dao/clean_return_goods_worksheet.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/zhss/eshop/finance/dao/PurchaseSettlementOrderDaoTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/zhss/eshop/finance/dao/PurchaseSettlementOrderItemDaoTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/zhss/eshop/finance/dao/clean_purchase_settlement_order.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/zhss/eshop/finance/dao/clean_purchase_settlement_order_item.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/zhss/eshop/inventory/service/InventoryServiceTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/zhss/eshop/logistics/dao/FreightTemplateDaoTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/zhss/eshop/logistics/dao/clean_freight_template.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/zhss/eshop/membership/dao/DeliveryAddressDaoTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/zhss/eshop/membership/dao/MemberLevelDaoTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/zhss/eshop/membership/dao/MemberLevelDetailDaoTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/zhss/eshop/membership/dao/MemberPointDaoTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/zhss/eshop/membership/dao/MemberPointDetailDaoTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/zhss/eshop/membership/dao/UserAccountDaoTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/zhss/eshop/membership/dao/UserDetailDaoTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/zhss/eshop/membership/dao/clean_delivery_address.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/zhss/eshop/membership/dao/clean_member_level.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/zhss/eshop/membership/dao/clean_member_point.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/zhss/eshop/membership/dao/clean_user_account.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/zhss/eshop/membership/dao/clean_user_detail.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/zhss/eshop/membership/dao/init_member_level_detail.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/zhss/eshop/membership/dao/init_member_point_detail.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/zhss/eshop/order/dao/OrderInfoDaoTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/zhss/eshop/order/dao/OrderItemDaoTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/zhss/eshop/order/dao/OrderOperateLogDaoTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/zhss/eshop/order/dao/ReturnGoodsApplyDaoTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/zhss/eshop/order/dao/clean_order.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/zhss/eshop/order/dao/clean_order_item.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/zhss/eshop/order/dao/clean_order_operate_log.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/zhss/eshop/order/dao/clean_return_goods_apply.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/zhss/eshop/pay/dao/PayTransactionDaoTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/zhss/eshop/pay/dao/clean_pay_transaction.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/zhss/eshop/promotion/dao/CouponAchieveDaoTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/zhss/eshop/promotion/dao/CouponDaoTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/zhss/eshop/promotion/dao/PromotionActivityDaoTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/zhss/eshop/promotion/dao/clean_coupon.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/zhss/eshop/promotion/dao/clean_coupon_achieve.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/zhss/eshop/promotion/dao/clean_promotion_activity.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/zhss/eshop/promotion/dao/clean_promotion_activity_goods_relation.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/zhss/eshop/purchase/dao/PurchaseOrderDaoTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/zhss/eshop/purchase/dao/PurchaseOrderItemDaoTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/zhss/eshop/purchase/dao/SupplierlDaoTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/zhss/eshop/purchase/dao/clean_purchase_order.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/zhss/eshop/purchase/dao/clean_purchase_order_item.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/zhss/eshop/purchase/dao/clean_supplier.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/zhss/eshop/schedule/dao/ScheduleGoodsAllocationStockDaoTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/zhss/eshop/schedule/dao/ScheduleGoodsAllocationStockDetailDaoTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/zhss/eshop/schedule/dao/ScheduleGoodsStockDaoTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/zhss/eshop/schedule/dao/ScheduleOrderPickingItemDaoTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/zhss/eshop/schedule/dao/ScheduleOrderSendOutDetailTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/zhss/eshop/schedule/dao/clean_goods_allocation_stock.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/zhss/eshop/schedule/dao/clean_goods_allocation_stock_detail.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/zhss/eshop/schedule/dao/clean_goods_stock.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/zhss/eshop/schedule/dao/clean_order_picking_item.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/zhss/eshop/schedule/dao/clean_order_send_out_detail.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/zhss/eshop/wms/dao/GoodsAllocationDaoTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/zhss/eshop/wms/dao/LogisticOrderDaoTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/zhss/eshop/wms/dao/PurchaseInputOrderDaoTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/zhss/eshop/wms/dao/PurchaseInputOrderItemDaoTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/zhss/eshop/wms/dao/PurchaseInputOrderPutOnItemDaoTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/zhss/eshop/wms/dao/ReturnGoodsInputOrderDaoTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/zhss/eshop/wms/dao/ReturnGoodsInputOrderItemDaoTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/zhss/eshop/wms/dao/ReturnGoodsInputOrderPutOnItemDaoTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/zhss/eshop/wms/dao/SaleDeliveryOrderDaoTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/zhss/eshop/wms/dao/SaleDeliveryOrderItemDaoTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/zhss/eshop/wms/dao/SaleDeliveryOrderPickingItemDaoTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/zhss/eshop/wms/dao/SaleDeliveryOrderSendOutDetailDaoTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/zhss/eshop/wms/dao/SendOutOrderDaoTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/zhss/eshop/wms/dao/SendOutOrderItemDaoTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/zhss/eshop/wms/dao/clean_goods_allocation.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/zhss/eshop/wms/dao/clean_logistic_order.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/zhss/eshop/wms/dao/clean_purchase_input_order.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/zhss/eshop/wms/dao/clean_purchase_input_order_item.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/zhss/eshop/wms/dao/clean_purchase_input_order_put_on_item.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/zhss/eshop/wms/dao/clean_return_goods_input_order.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/zhss/eshop/wms/dao/clean_return_goods_input_order_item.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/zhss/eshop/wms/dao/clean_return_goods_input_order_put_on_item.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/zhss/eshop/wms/dao/clean_sale_delivery_order.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/zhss/eshop/wms/dao/clean_sale_delivery_order_item.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/zhss/eshop/wms/dao/clean_sale_delivery_order_picking_item.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/zhss/eshop/wms/dao/clean_sale_delivery_order_send_out_detail.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/zhss/eshop/wms/dao/clean_send_out_order.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/zhss/eshop/wms/dao/clean_send_out_order_item.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/eshop.iml" beforeDir="false" afterPath="$PROJECT_DIR$/eshop.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/zhss/eshop/EshopApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/zhss/eshop/config/DruidDataSourceConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/zhss/eshop/common/config/DruidDataSourceConfig.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -13,61 +965,20 @@
   <component name="DefaultGradleProjectSettings">
     <option name="isMigrated" value="true" />
   </component>
-  <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="954">
-              <caret line="59" column="20" selection-start-line="59" selection-start-column="20" selection-end-line="59" selection-end-column="20" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/zhss/eshop/EshopApplication.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="126">
-              <caret line="9" column="22" selection-start-line="9" selection-start-column="22" selection-end-line="9" selection-end-column="22" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/zhss/eshop/config/DruidDataSourceConfig.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="252">
-              <caret line="21" column="7" lean-forward="true" selection-start-line="21" selection-start-column="7" selection-end-line="21" selection-end-column="7" />
-              <folding>
-                <element signature="e#976#1008#1" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
-  </component>
-  <component name="IdeDocumentHistory">
-    <option name="CHANGED_PATHS">
-      <list>
-        <option value="$PROJECT_DIR$/src/main/java/com/zhss/eshop/EshopApplication.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/zhss/eshop/config/DruidDataSourceConfig.java" />
-        <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/src/main/resources/application.properties" />
-      </list>
-    </option>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
       <MavenGeneralSettings>
         <option name="localRepository" value="D:\work-soft\apache-maven-3.5.0\repository" />
-        <option name="mavenHome" value="D:/work-soft/apache-maven-3.5.0" />
+        <option name="mavenHome" value="$PROJECT_DIR$/../../work-soft/apache-maven-3.5.0" />
         <option name="userSettingsFile" value="D:\work-soft\apache-maven-3.5.0\conf\settings.xml" />
       </MavenGeneralSettings>
     </option>
     <option name="importingSettings">
       <MavenImportingSettings>
-        <option name="importAutomatically" value="true" />
+        <option name="vmOptionsForImporter" value="-Xmx768m" />
       </MavenImportingSettings>
     </option>
   </component>
@@ -77,89 +988,11 @@
     <option name="width" value="1355" />
     <option name="height" value="690" />
   </component>
-  <component name="ProjectView">
-    <navigator proportions="" version="1">
-      <foldersAlwaysOnTop value="true" />
-    </navigator>
-    <panes>
-      <pane id="Scope" />
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="eshop" type="b2602c69:ProjectViewProjectNode" />
-              <item name="eshop" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="eshop" type="b2602c69:ProjectViewProjectNode" />
-              <item name="eshop" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="eshop" type="b2602c69:ProjectViewProjectNode" />
-              <item name="eshop" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="eshop" type="b2602c69:ProjectViewProjectNode" />
-              <item name="eshop" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="eshop" type="b2602c69:ProjectViewProjectNode" />
-              <item name="eshop" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="eshop" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="eshop" type="b2602c69:ProjectViewProjectNode" />
-              <item name="eshop" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="eshop" type="462c0819:PsiDirectoryNode" />
-              <item name="config" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="eshop" type="b2602c69:ProjectViewProjectNode" />
-              <item name="eshop" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="eshop" type="b2602c69:ProjectViewProjectNode" />
-              <item name="eshop" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="eshop" type="b2602c69:ProjectViewProjectNode" />
-              <item name="eshop" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="eshop" type="b2602c69:ProjectViewProjectNode" />
-              <item name="eshop" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="eshop" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-      <pane id="CatdeaLogs" />
-      <pane id="PackagesPane" />
-    </panes>
+  <component name="ProjectId" id="1edRyPLcHtMjPZfz6velixjdJtb" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
     <property name="RequestMappingsPanelOrder0" value="0" />
@@ -168,32 +1001,40 @@
     <property name="RequestMappingsPanelWidth0" value="75" />
     <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="RequestMappingsPanelWidth2" value="75" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="E:/架构班课程/课程资料/Java资料/04_大型电商系统v1.0项目实战/001~129/资料/105_工程初始化：完成单块系统工程的搭建/eshop" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="settings.editor.selected.configurable" value="editing.templates" />
+    <property name="settings.editor.selected.configurable" value="MavenSettings" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="com.zhss" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\zhss-project\eshop\src\main" />
+      <recent name="D:\zhss-project\eshop\src\test" />
+      <recent name="D:\zhss-project\eshop\src\main\java" />
       <recent name="D:\zhss-project\eshop\src\main\resources" />
       <recent name="D:\zhss-project\eshop\src\main\java\com\zhss\eshop\config" />
     </key>
   </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
-  </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.Application">
+    <configuration name="Application" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.zhss.eshop.Application" />
+      <module name="eshop" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.zhss.eshop.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="EshopApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="eshop" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.zhss.eshop.EshopApplication" />
@@ -201,6 +1042,11 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Application" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -214,99 +1060,61 @@
       <updated>1593791831744</updated>
       <workItem from="1593791835973" duration="1756000" />
       <workItem from="1593863923447" duration="340000" />
+      <workItem from="1594549249695" duration="1022000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="2096000" />
-  </component>
-  <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
-    <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25266525" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info id="Designer" order="2" />
-      <window_info id="Image Layers" order="3" />
-      <window_info id="Capture Tool" order="4" />
-      <window_info id="UI Designer" order="5" />
-      <window_info id="Favorites" order="6" side_tool="true" />
-      <window_info id="Web" order="7" side_tool="true" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.59844273" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Spring" order="7" />
-      <window_info anchor="bottom" id="Terminal" order="8" />
-      <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" order="11" weight="0.32925472" />
-      <window_info anchor="bottom" id="Java Enterprise" order="12" />
-      <window_info anchor="bottom" id="Database Changes" order="13" />
-      <window_info anchor="bottom" id="Version Control" order="14" />
-      <window_info anchor="right" id="Bean Validation" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Maven" order="3" />
-      <window_info anchor="right" id="Palette" order="4" />
-      <window_info anchor="right" id="Capture Analysis" order="5" />
-      <window_info anchor="right" id="Theme Preview" order="6" />
-      <window_info anchor="right" id="SciView" order="7" />
-      <window_info anchor="right" id="Database" order="8" />
-      <window_info anchor="right" id="Palette&#9;" order="9" />
-      <window_info anchor="right" id="Translate" order="10" />
-    </layout>
+    <option name="totallyTimeSpent" value="3118000" />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
-  <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/.gitignore" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/zhss/eshop/EshopApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="9" column="22" selection-start-line="9" selection-start-column="22" selection-end-line="9" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="954">
-          <caret line="59" column="20" selection-start-line="59" selection-start-column="20" selection-end-line="59" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/application.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="63">
-          <caret line="3" column="30" selection-start-line="3" selection-start-column="30" selection-end-line="3" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/zhss/eshop/EshopApplicationTests.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="6" column="6" selection-start-line="6" selection-start-column="6" selection-end-line="6" selection-end-column="6" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/zhss/eshop/config/DruidDataSourceConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="21" column="7" lean-forward="true" selection-start-line="21" selection-start-column="7" selection-end-line="21" selection-end-column="7" />
-          <folding>
-            <element signature="e#976#1008#1" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+  <component name="WindowStateProjectService">
+    <state x="677" y="447" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1594649940988">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="677" y="447" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1594649940988" />
+    <state x="744" y="410" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.packages" timestamp="1594649942911">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="744" y="410" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.packages/0.0.1920.1040@0.0.1920.1040" timestamp="1594649942911" />
+    <state width="1877" height="338" key="GridCell.Tab.0.bottom" timestamp="1594650659624">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="338" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1594650659624" />
+    <state width="1877" height="338" key="GridCell.Tab.0.center" timestamp="1594650659624">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="338" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1594650659624" />
+    <state width="1877" height="338" key="GridCell.Tab.0.left" timestamp="1594650659624">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="338" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1594650659624" />
+    <state width="1877" height="338" key="GridCell.Tab.0.right" timestamp="1594650659624">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="338" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1594650659624" />
+    <state width="1877" height="338" key="GridCell.Tab.1.bottom" timestamp="1594650659505">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="338" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1594650659505" />
+    <state width="1877" height="338" key="GridCell.Tab.1.center" timestamp="1594650659504">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="338" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1594650659504" />
+    <state width="1877" height="338" key="GridCell.Tab.1.left" timestamp="1594650659504">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="338" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1594650659504" />
+    <state width="1877" height="338" key="GridCell.Tab.1.right" timestamp="1594650659504">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="338" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1594650659504" />
+    <state x="463" y="166" key="SettingsEditor" timestamp="1594650383132">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="463" y="166" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1594650383132" />
   </component>
   <component name="masterDetails">
     <states>
